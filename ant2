@@ -1,0 +1,34 @@
+
+gosh ant5.scm 15 -20 3 3 
+38662:-1025:1027:2
+38663:-1026:1026:0
+Cycle
+
+ gosh ant5.scm 15 -20 0 0
+ 4876:-13:15:2
+4877:-14:14:0
+Cycle
+
+gosh ant5.scm 15 -20 0 1
+8972:733:657:1390
+Hiway
+
+gosh ant5.scm 15 -20 0 2
+8929:0:0:0
+Cycle
+113
+
+gosh ant5.scm 15 -20 0 3
+21064:2131:937:3068
+Hiway
+
+gosh ant5.scm 15 -20 1 1
+38663:1026:-1026:0
+Cycle
+
+ gosh ant5.scm 4 4 0 0
+ gosh ant5.scm 10 10 0  2
+ gosh ant5.scm 100 100 0  2
+  
+ gosh ant5.scm 30 30 2 0
+ Hiway-join-Hiway 
